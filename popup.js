@@ -82,6 +82,7 @@ var tabId = tabs[0].id;
         
         var button = document.createElement('button');
         button.innerText = 'Sil';
+        
         button.addEventListener('click', createRemoveCookieListener(cookie));
         
         li.appendChild(button);
